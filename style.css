@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.Fme {
+    background-color: #0aff02;
+
+}

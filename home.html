@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Community Service Opportunities</h1>
+{%for profiles in profile%}
+<div class="Fme">
+    {{profiles}}<br>{% endfor %}<div>
+<input type="text" id="search" class="form-control mb-3" placeholder="Search opportunities...">
+<ul id="opportunity-list" class="list-group">
+    
+    
+    {% for opportunity in opportunities %}
+    <li class="list-group-item">{{ opportunity.title }} - {{ opportunity.description }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
